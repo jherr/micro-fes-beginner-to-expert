@@ -1,0 +1,43 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "build:start": "cd dist && PORT=3000 npx serve",
+    "start": "webpack serve --open --mode development",
+    "start:live": "webpack serve --open --mode development --live-reload --hot"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Jack Herrington",
+    "email": "jherr@pobox.com"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@testing-library/react-hooks": "^7.0.2",
+    "autoprefixer": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.3.0",
+    "cypress": "^8.7.0",
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.3.1",
+    "postcss": "^8.2.1",
+    "postcss-loader": "^4.1.0",
+    "style-loader": "^3.3.0",
+    "tailwindcss": "^2.0.2",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.9.0",
+    "webpack-dev-server": "^4.3.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.13.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0",
+    "remixicon": "^2.5.0"
+  }
+}
