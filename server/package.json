@@ -21,7 +21,6 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@": "nestjs/passport",
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
     "@nestjs/jwt": "^8.0.0",
@@ -30,7 +29,7 @@
     "@nestjs/serve-static": "^2.2.2",
     "class-validator": "^0.13.1",
     "jsonwebtoken": "^8.5.1",
-    "passport": "^0.5.0",
+    "passport": "^0.5.3",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
     "reflect-metadata": "^0.1.13",
