@@ -1,0 +1,16 @@
+{
+  "name": "micro-fes-beginner-to-expert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pkg:install": "cd server && pnpm i && cd ../addtocart && pnpm i && cd ../cart && pnpm i && cd ../home && pnpm i && cd ../pdp && pnpm i",
+    "dev": "concurrently \"cd server; pnpm start:dev\" \"cd addtocart; pnpm start:live\"  \"cd cart; pnpm start:live\"  \"cd home; pnpm start:live\"  \"cd pdp; pnpm start:live\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
